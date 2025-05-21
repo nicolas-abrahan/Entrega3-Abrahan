@@ -12,34 +12,6 @@
   border-radius: 2em;
 }
 
-.productos {
-  padding: 8px;
-  margin: 16px;
-}
-.ofertas {
-  padding: 8px;
-  margin: 8px;
-}
-
-.productos-recomendados {
-  margin: 8px;
-  padding: 8px;
-}
-
-.ofertas-especiales {
-  margin: 8px;
-  padding: 8px;
-}
-
-.productos-recomendados h4 {
-  padding: 8px;
-  margin: 8px;
-}
-
-.ofertas-especiales h4 {
-  padding: 8px;
-}
-
 footer {
   position: absolute;
   bottom: 0;
@@ -62,24 +34,20 @@ footer {
   gap: 3em;
 }
 
-.carrito-compras {
-  display: flex;
-  flex-direction: column;
-  display: flex;
-  gap: 0.2em;
-  justify-content: center;
-  align-items: center;
-  border: 1px solid;
-  border-color: black;
-  border-radius: 2em;
-}
-
-.cart-btn {
+.button {
   background: #d2d0a0;
   color: #73946b;
   border: none;
   border-radius: 2em;
-  font-size: 1em;
-  padding: 0.5em 2em;
-  cursor: pointer;
+  text-decoration: none;
+  margin: 16px;
+  padding: 8px;
+  &:hover {
+    background: #73946b;
+    color: #d2d0a0;
+  }
+}
+
+.col {
+  margin-bottom: 16px;
 }
